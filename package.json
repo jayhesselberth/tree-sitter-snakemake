@@ -11,6 +11,7 @@
     "test": "tree-sitter test",
     "build": "tree-sitter generate --no-bindings"
   },
+  "repository": "https://github.com/osthomas/tree-sitter-snakemake",
   "keywords": [
     "parser",
     "snakemake",
@@ -23,7 +24,8 @@
       "scope": "source.snakemake",
       "file-types": [
         "Snakefile",
-        "smk"
+        "smk",
+        "snake"
       ]
     }
   ]
